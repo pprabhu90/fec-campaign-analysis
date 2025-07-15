@@ -1,37 +1,33 @@
+# FEC Campaign Contribution Analysis – 2016 California Primary
 
-# 2016 California Presidential Primary Campaign Contributions
+This project analyzes campaign contributions made to 2016 U.S. presidential primary candidates, using data from the Federal Election Commission (FEC) focused on California ZIP codes. It explores fundraising patterns, highlights top-performing candidates, and reveals donor behavior using Python-based tools.
 
-This project explores political donation trends from California during the 2016 U.S. presidential primaries using real Federal Election Commission (FEC) data. It was completed as part of Week 12–13 of the **UC Berkeley MIDS DATASCI 200: Introduction to Data Science Programming** course.
+## Features
+- Analyzes 2016 primary contributions by ZIP code and candidate
+- Filters for valid, positive, individual donations
+- Aggregates and visualizes total contributions by party and geography
+- Includes both Jupyter notebook and Python script versions
+- Cleaned dataset available via Google Drive
 
-## 📊 Objectives
-- Analyze real-world campaign finance data using `pandas`
-- Visualize donation distributions with `matplotlib`
-- Investigate patterns in candidate support and donor occupations
+## Files
+- `fec_2016_ca_primary_analysis.ipynb` – Main Jupyter notebook with analysis, plots, and results
+- `fec_campaign_analysis.py` – Modular Python script for analysis logic
+- `README.md` – This documentation file
+- `2016_ca_primary_cleaned.csv` – **(Too large for GitHub – see download link below)**
 
-## 🔍 Dataset
-The dataset used (`2016_ca_primary_cleaned.csv`) contains cleaned FEC data on campaign contributions from California during the 2016 presidential primary season. It is **not included** in the repo to avoid uploading large data files. You can download it [here](https://drive.google.com/file/d/1ftdw7L9Z6WQJ6i0SXj030PA7ObsXfPsg/view?usp=sharing) and place it in a local directory outside the repository.
+## Data
 
-## 🧮 Analysis Topics
-- Histograms of contribution amounts (full range & zoomed-in)
-- Daily fundraising time series for Hillary Clinton and Bernie Sanders
-- Total vs. average donations by candidate
-- Donor occupation analysis for each candidate
+The cleaned dataset used in this analysis (`2016_ca_primary_cleaned.csv`) exceeds GitHub’s file size limit.
 
-## 📁 Files
-- `fec_campaign_analysis.py` — Main analysis script
-- `README.md` — Project overview and instructions
+🔗 [Download Cleaned CSV from Google Drive](https://drive.google.com/file/d/133yxULHJ5qjX-b3Zv54uPxQ8yRD5_vbq/view?usp=sharing)
 
-## ▶️ How to Run
-1. Download the CSV file from the link above.
-2. Save it outside your repo, for example:
-   ```
-   /Users/<your-username>/Downloads/2016_ca_primary_cleaned.csv
-   ```
-3. Update the file path in `fec_campaign_analysis.py` if needed.
-4. Run the script:
-   ```bash
-   python fec_campaign_analysis.py
-   ```
+## How to Run
+
+From the command line (for script version):
+
+```bash
+python fec_campaign_analysis.py
+```
 
 ## ✍️ Author
 Praj Prabhu – [GitHub Profile](https://github.com/pprabhu90)
