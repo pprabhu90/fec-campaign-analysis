@@ -29,5 +29,5 @@ From the command line (for script version):
 python fec_campaign_analysis.py
 ```
 
-## ✍️ Author
-Praj Prabhu – [GitHub Profile](https://github.com/pprabhu90)
+## Author
+Praj Prabhu
